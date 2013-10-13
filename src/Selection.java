@@ -6,6 +6,7 @@
  * To change this template use File | Settings | File Templates.
  */
 public class Selection {
+    //selection sort is not stable
     public static void main(String[] args) {
         In in = new In(args[0]);
         String[] a = in.readAllStrings();
